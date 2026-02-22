@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const root = document.documentElement;
 
     // Check for saved theme preference or default to dark
-    const savedTheme = localStorage.getItem('mg-theme') || 'dark';
+    const savedTheme = localStorage.getItem('mg-theme') || 'light';
     root.setAttribute('data-theme', savedTheme);
 
     themeToggle.addEventListener('click', () => {
